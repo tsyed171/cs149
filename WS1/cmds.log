@@ -1,0 +1,16 @@
+   37  cd WS1
+   38  cd Desktop/
+   39  cd
+   40  pwd
+   41  cd ~
+   42  cd Desktop/
+   43  ls -latr ; mkdir cs149 ; cd cs149
+   44  git init
+   45  git remote add origin https://github.com/tsyed171/cs149.git
+   46  git config --global user.email tsyedew@gmail.com
+   47  git config --global user.name tsyed171
+   48  mkdir WS1
+   49  cd WS1
+   50  git add .
+   51  wget -O out.pdf https://tinyurl.com/yy94jltt
+   52  ls -latr
